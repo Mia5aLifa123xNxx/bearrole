@@ -114,7 +114,6 @@ client.on('messageReactionAdd',(messageReaction,user) => {
 	   }
    }
 });	
-
 client.on('messageReactionReamove', (messageReaction, user) => {
 	var roleName = messageReaction.emoji.name;
     var role = messageReaction.message.guild.roles.find(role => role.name.toLowerCase() ===
